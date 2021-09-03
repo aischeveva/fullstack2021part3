@@ -5,3 +5,6 @@ content-type: application/json
     "name": "sample",
     "number": "000000000"
 }
+
+###
+GET http://localhost:3001/api/persons/61326b793ee4f0fc0017e674
