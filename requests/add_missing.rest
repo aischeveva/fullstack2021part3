@@ -12,3 +12,30 @@ content-type: application/json
 {
     "number": "000000000"
 }
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "Al",
+    "number": "000000000"
+}
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "Al",
+    "number": "000"
+}
+
+###
+PUT http://localhost:3001/api/persons/613272cde341333e9c160c6e
+content-type: application/application/json
+
+{
+    "name": "S",
+    "number": "111"
+}

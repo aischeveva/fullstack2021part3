@@ -8,3 +8,6 @@ content-type: application/json
 
 ###
 GET http://localhost:3001/api/persons/61326b793ee4f0fc0017e674
+
+###
+GET http://localhost:3001/info
